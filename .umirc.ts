@@ -1,6 +1,6 @@
 import { defineConfig } from 'dumi';
 
-const repo = 'recall';
+const repo = '';
 
 export default defineConfig({
   title: 'Recall',
@@ -13,8 +13,8 @@ export default defineConfig({
   hash: true,
   locales: [['zh-CN', '中文']],
   // Because of using GitHub Pages
-  base: `/${repo}/`,
-  publicPath: `/${repo}/`,
+  base: `/`,
+  publicPath: `/`,
   navs: [
     null,
     {
